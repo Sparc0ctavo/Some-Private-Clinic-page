@@ -1,0 +1,82 @@
+.navStyle {
+    background: rgb(41,121,9);
+    font-family: Georgia, serif;
+}
+
+body { 
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("content-images/laboratory.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .mainInfoPart1 {
+    display: flex;
+    margin: 15%;
+    justify-content: space-between;
+    
+  }
+
+  .mainInfoPart2 {
+    display: flex;
+    margin: 3%;
+    justify-content: space-around;
+  }
+
+  .mainInfoPart3 {
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainRegister {
+    margin: 7%;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+  }
+  
+  .containerRegisterPart1 {
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+  }
+
+  .containerRegisterPart2 {
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+  }
+
+  .containerRegisterPart3 {
+    display: flex;
+    padding-top: 3%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #infoBlock1 {
+    background-color: rgb(14, 140, 7);
+    width: 35%;
+    height: 200px;
+    max-height: 200px;
+    transform: skew(-20deg);
+  }
+
+  #infoBlock2 {
+    background-color: rgb(14, 140, 7);
+    width: 35%;
+    height: 200px;
+    max-height: 200px;
+    transform: skew(20deg);
+  }
+
+p {
+    color: white;
+    font-family: Georgia, serif;
+}
+
+footer {
+  background: rgba(10, 148, 0, 0.5);
+}
